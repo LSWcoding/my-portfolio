@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Wu Liushun
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Wuliushun! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a full-stack developer with 2 years of hands-on experience building and maintaining 
+            both front-end interfaces and back-end services. My work spans across application development 
+            and microservices architecture, with deployments primarily on IBM Cloud. I have a strong command 
+            of IBM Watson Services, having integrated tools like Watson Assistant, Natural Language Understanding (NLU), 
+            and Sentiment Analyzer into real-world solutions. Passionate about creating intelligent, scalable applications that deliver value and enhance user experience.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://pixabay.com/vectors/caf%C3%A9-java-logo-coffee-programming-151346/"/>
+            <h6>Java</h6>
+            <p>3 years experience</p>
+        </div>
+
+            <div class="skill">
+                <img src="https://www.istockphoto.com/photo/cpp-business-customer-management-analysis-service-concept-business-team-gm1296008606-389558645?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner-test1_media&utm_term=cpp+logo"/>
+                <h6>cpp</h6>
+                <p>3 years experience</p>
+            </div>
+
+                <div class="skill">
+                    <img src="https://www.istockphoto.com/photo/traffic-signs-gm480417471-36680952?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner-test1_media&utm_term=golang+logo"/>
+                    <h6>Golangt</h6>
+                    <p>3 years experience</p>
+                </div>
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Virtual Healthcare Assistant</h3>
+            <ul>
+              <li>Built an AI-powered virtual healthcare assistant for a telemedicine startup using React, Node.js, and Dialogflow, enabling patients to schedule appointments and get symptom-based guidance.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Real-time Weather Dashboard</h3>
+            <ul>
+              <li>Designed and implemented a real-time weather dashboard using OpenWeatherMap API, JavaScript, and Bootstrap, featuring live updates, geolocation support, and interactive charts with Chart.js.
+
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Restaurant Ordering System</h3>
+            <ul>
+              <li>Developed a mobile-responsive food ordering platform for a local restaurant chain using HTML, CSS, and Firebase, including real-time order tracking, user authentication, and admin interface for menu updates.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+
+
+          <div class="recommendation">
+            <span>&#8220;</span>
+            A fast learner with a strong grasp of web technologies and a keen eye for detail. Always takes 
+            initiative and contributes meaningfully to team discussions and project outcomes. 
+            <span>&#8221;</span>
+
+        </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Brings both technical expertise and a problem-solving mindset to the table. Dependable under
+                 pressure and consistently delivers quality work, even under tight deadlines. 
+                <span>&#8221;</span>
+            </div>
+
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Demonstrates excellent collaboration skills and a proactive attitude. Quickly adapts to
+                     new challenges and is always ready to take ownership of tasks, making them a valuable asset to any team. 
+                    <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg> <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
